@@ -4,8 +4,8 @@ setlocal
 cls
 echo.
 echo.
-echo LAST WARNING!
-echo THIS VIRUS IS VERY DANGEROUS, DO YOU WANT TO RUN IT?
+echo WARNING!
+echo THIS VIRUS OVERLOADS YOUR PC, DO YOU WANT TO RUN IT?
 echo.
 set /p continue="[YES / NO] >> "
 if /i "%continue%"=="yes" goto run
