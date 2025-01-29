@@ -6,7 +6,7 @@ echo.
 echo.
 echo WARNING!
 echo THIS VIRUS OVERLOADS YOUR PC, DO YOU WANT TO RUN IT?
-echo
+echo.
 echo You can use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 echo.
 echo.
