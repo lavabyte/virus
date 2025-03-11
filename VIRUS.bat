@@ -1,5 +1,4 @@
-ÿþ
-cls
+ÿþ&cls
 @echo off
 color a
 setlocal
